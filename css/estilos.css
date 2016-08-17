@@ -1,0 +1,56 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+#container2 {
+    width:100%;
+    overflow:hidden;
+}
+
+
+/*
+menú animado
+*/
+
+.header2{
+    width:920px;
+    margin:0 auto;
+}
+
+
+.header2 li{
+    position:relative;
+    display:block;
+    float:left;
+    overflow:hidden;
+}
+
+.imagen{
+    height:240px;
+    border: 1px solid #333;
+
+}
+
+.tapa {
+    position:absolute;
+    top:0px;
+    display:block;
+    background-color:rgba(0, 0, 0, 0.65);
+    height:220px;
+
+    padding:10px;
+
+    color:#fff;
+    font-size:12px;
+    text-align:center;
+
+    visibility:hidden;
+}
+
+.ancha{
+    width:300px;
+}
+.estrecha{
+    width:160px;
+}
